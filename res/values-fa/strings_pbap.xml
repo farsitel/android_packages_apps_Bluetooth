@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_app_name">Pbap بلوتوث</string>
+    <string name="pbap_acceptance_dialog_title">%1$s می‌خواهد به آشنایان و تاریخچهٔ تماس‌های شما دسترسی پیدا کند. به %2$s دسترسی داده شود؟</string>
+    <string name="pbap_acceptance_dialog_header">دسترسی به آشنایان</string>
+    <string name="pbap_session_key_dialog_title">برای %1$s کلید نشست را تایپ کنید</string>
+    <string name="pbap_session_key_dialog_header">به کلید نشست بلوتوث نیاز است</string>
+    <string name="pbap_acceptance_timeout_message">زمان انقضای قبول اتصال با %1$s به پایان رسید</string>
+    <string name="pbap_authentication_timeout_message">زمان انقضای وارد کردن کلید نشست برای %1$s به پایان رسید</string>
+    <string name="bluetooth_transfer_header">جابجایی بلوتوث</string>
+    <string name="bluetooth_transfer_text">نمی‌توان با موفقیت برای اشتراک‌گذاری آشنایان اتصال برقرار کرد</string>
+    <string name="toast_connected">%1$s به گوشی شما وصل شد. </string>
+    <string name="toast_disconnected">%1$s از گوشی شما قطع شد. </string>
+    <string name="pbap_notif_ticker">درخواست دسترسی به آشنایان</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="pbap_notif_title">درخواست PBAP</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="pbap_notif_message">اجازهٔ دسترسی به آشنایان برای %1$s</string>
+    <string name="auth_notif_ticker">درخواست تأیید هویت Obex</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_title">کلید نشست</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_message">برای %1$s کلید نشست را تایپ کنید</string>
+    <string name="alwaysallowed">همیشه اجازه داده شود؟</string>
+    <string name="defaultname">کارکیت</string>
+    <string name="unknownName">نام نامشخص</string>
+    <string name="localPhoneName">نام شما</string>
+    <string name="defaultnumber">000000</string>
+</resources>
