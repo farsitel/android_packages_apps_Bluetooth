@@ -187,6 +187,6 @@
     <string name="status_unknown_error">خطای نامشخص</string>
 
     <!-- Bluetooth OPP Live Folder -->
-    <string name="btopp_live_folder">بلوتوث دریافت شد</string>
+    <string name="btopp_live_folder">بلوتوث‌ها</string>
 
 </resources>
