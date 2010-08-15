@@ -7,7 +7,7 @@
         permission controls access to the Bluetooth Share Manager by
         applications that initiate Bluetooth share.
     -->
-    <string name="permlab_bluetoothShareManager">دسترسی به مدیریت بارگیری‌ها.</string>
+    <string name="permlab_bluetoothShareManager">دسترسی به مدیریت دریافت پرونده‌</string>
     <!--
         This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
@@ -15,13 +15,13 @@
         permission controls access to the Download Manager by applications
         that initiate downloads.
     -->
-    <string name="permdesc_bluetoothShareManager">به برنامه اجازه می‌دهد که به مدیر اشتراک‌گذاری بلوتوث دسترسی پیدا کند و برای جابجایی پرونده‌ها از آن استفاده کنید </string>
+    <string name="permdesc_bluetoothShareManager">به برنامه اجازه داده می‌شود تا به مدیریت اشتراک‌گذاری بلوتوث دسترسی پیدا کرده و برای انتقال پرونده‌ها از آن استفاده کند.</string>
 
     <!-- string showed on "Share picutre via" dialog -->
     <string name="bt_share_picker_label">بلوتوث</string>
 
     <!-- string for "unknown device" -->
-    <string name="unknown_device">دستگاه نامعلوم</string>
+    <string name="unknown_device">دستگاه ناشناس</string>
 
     <!-- string for "the title of airplane mode error" -->
     <string name="airplane_error_title">حالت هواپیما</string>
@@ -32,88 +32,84 @@
     <!--Title -->
     <string name="bt_enable_title">بلوتوث</string>
     <!--Line 1 -->
-    <string name="bt_enable_line1">برای استفاده از خدمات بلوتوث، ابتدا باید بلوتوث را روشن کنید.</string>
+    <string name="bt_enable_line1">برای استفاده از بلوتوث، باید آن را روشن کنید.</string>
     <!--Line 2 -->
-    <string name="bt_enable_line2">همین الان بلوتوث روشن شود؟</string>
+    <string name="bt_enable_line2">بلوتوث روشن شود؟</string>
     <!-- Label for a cancel button. -->
-    <string name="bt_enable_cancel">لغو</string>
+    <string name="bt_enable_cancel">خیر</string>
     <!-- Label for a confirm button.-->
-    <string name="bt_enable_ok">روشن کن</string>
+    <string name="bt_enable_ok">بله</string>
 
     <!-- Bluetooth File Transfer Acceptance Dialog -->
     <!--Title -->
-    <string name="incoming_file_confirm_title">جابجایی پرونده</string>
+    <string name="incoming_file_confirm_title">انتقال پرونده</string>
     <!--content -->
-    <string name="incoming_file_confirm_content">‏«%1$s» می‌خواهد %2$s (%3$s) را به شما ارسال کند. \n\n قبول کنم؟ </string>
+    <string name="incoming_file_confirm_content">‏‏‏‏‎‏‏‏‎‏‏‏«%1$s» می‌خواهد %2$s (%3$s) را به شما ارسال کند. \n\n فایل دریافت شود؟</string>
     <!-- Label for a cancel button. -->
-    <string name="incoming_file_confirm_cancel">رد</string>
+    <string name="incoming_file_confirm_cancel">خیر</string>
     <!-- Label for a confirm button.-->
-    <string name="incoming_file_confirm_ok">قبول</string>
+    <string name="incoming_file_confirm_ok">بله</string>
     <!-- Label for timeout OK button.-->
-    <string name="incoming_file_confirm_timeout_ok">قبول</string>
+    <string name="incoming_file_confirm_timeout_ok">خُب</string>
     <!-- content for timeout-->
-    <string name="incoming_file_confirm_timeout_content">زمان قبول کردن پرونده از «%1$s» از حد مجاز آن بیشتر شده است</string>
+    <string name="incoming_file_confirm_timeout_content">انتظار برای دریافت پرونده از «%1$s» بیش از حد طول کشید.</string>
 
     <!-- Bluetooth File Transfer Acceptance Notification item -->
     <string name="incoming_file_confirm_Notification_title">اشتراک‌گذاری بلوتوث: پروندهٔ ورودی</string>
-    <string name="incoming_file_confirm_Notification_caption">لطفا تایید کنید که می‌خواهید این پرونده را دریافت کنید</string>
-    <string name="incoming_file_toast_msg">پرونده‌ای از دستگاهی دیگر ارسال شده است، لطفا تایید کنید که می‌خواهید آنرا دریافت کنید</string>
+    <string name="incoming_file_confirm_Notification_caption">لطفاً دریافت این پرونده را تأیید نمایید.</string>
+    <string name="incoming_file_toast_msg">پرونده‌ای از دستگاهی دیگر ارسال شده است، لطفاً دریافت آن را تأیید نمایید.</string>
 
 
     <!-- Inbound File Transfer Progress Notification item -->
     <!-- label for the notification item of receiving file -->
     <string name="notification_receiving">اشتراک‌گذاری بلوتوث: در حال دریافت %1$s</string>
     <!-- label for the notification item of received file -->
-    <string name="notification_received">اشتراک‌گذاری بلوتوث: %1$s دریافت شد</string>
-    <!-- label for the notification item of received file -status -->
-    <string name="notification_received_complete">٪۱۰۰ کامل شد</string>
+    <string name="notification_received">اشتراک‌گذاری بلوتوث: %1$s دریافت شد.</string>
     <!-- label for the notification item of failed receiving file -->
-    <string name="notification_received_fail">اشتراک‌گذاری بلوتوث: پروندهٔ %1$s دریافت نشد</string>
+    <string name="notification_received_fail">اشتراک‌گذاری بلوتوث: پروندهٔ %1$s دریافت نشد.</string>
 
     <!-- Outbound File Transfer Progress Notification item -->
     <!-- label for the notification item of sending file -->
     <string name="notification_sending">اشتراک‌گذاری بلوتوث: در حال ارسال %1$s</string>
     <!-- label for the notification item of sending files -->
-    <string name="notification_sending_multi">اشتراک‌گذاری بلوتوث: در حال ارسال پرونده</string>
-    <!-- label for the notification item of sent file -->
-    <string name="notification_sent">اشتراک‌گذاری بلوتوث: %1$s ارسال شد</string>
+    <string name="notification_sent">اشتراک‌گذاری بلوتوث: %1$s ارسال شد.</string>
     <!-- label for the notification item of sent file -status -->
-    <string name="notification_sent_complete">٪۱۰۰ کامل شد</string>
+    <string name="notification_sent_complete">‏٪۱۰۰ کامل شد.</string>
     <!-- label for the notification item of failed sending file -->
-    <string name="notification_sent_fail">اشتراک‌گذاری بلوتوث: پروندهٔ %1$s ارسال نشد</string>
+    <string name="notification_sent_fail">اشتراک‌گذاری بلوتوث: پروندهٔ %1$s ارسال نشد.</string>
 
     <!-- Bluetooth Download Progress Dialog -->
     <!--Title -->
-    <string name="download_title">جابجایی پرونده</string>
+    <string name="download_title">انتقال پرونده</string>
     <!--Line 1 -->
     <string name="download_line1">از: «%1$s»</string>
     <!--Line 2 -->
     <string name="download_line2">پرونده: %1$s</string>
     <!--Line 3 -->
-    <string name="download_line3">حجم پرونده: %1$s</string>
+    <string name="download_line3">اندازه پرونده: %1$s</string>
     <!--Line 4 -->
     <string name="download_line4"></string>
     <string name="download_line5">در حال دریافت پرونده\u2026</string>
     <!-- Label for a cancel button. -->
-    <string name="download_cancel">متوقف کن</string>
+    <string name="download_cancel">قطع دریافت</string>
     <!-- Label for a hide button.-->
-    <string name="download_ok">مخفی کن</string>
+    <string name="download_ok">ادامهٔ دریافت</string>
 
     <!-- Bluetooth failed Download  Dialog -->
     <!--Line 1  -->
-    <string name="download_fail_line1">پرونده دریافت نشد</string>
+    <string name="download_fail_line1">پرونده دریافت نشد.</string>
     <!--Line 2  -->
     <string name="download_fail_line2">پرونده: %1$s</string>
     <!--Line 3  -->
     <string name="download_fail_line3">دلیل عدم موفقیت: %1$s</string>
     <!-- Label for ok button.-->
-    <string name="download_fail_ok">قبول</string>
+    <string name="download_fail_ok">خُب</string>
 
     <!-- Bluetooth Successful Download  Dialog -->
     <!--Line 4 in "Bluetooth Download Progress Dialog" -->
-    <string name="download_succ_line5">پرونده دریافت شد</string>
+    <string name="download_succ_line5">پرونده دریافت شد.</string>
     <!-- Label for a OK button.-->
-    <string name="download_succ_ok">باز کن</string>
+    <string name="download_succ_ok">باز کردن</string>
 
     <!-- Bluetooth Upload Progress Dialog -->
     <string name="upload_line1">به: «%1$s»</string>
@@ -122,71 +118,74 @@
 
     <!-- Bluetooth Successful Upload Progress Dialog -->
     <!--Line 4 -->
-    <string name="upload_succ_line5">پرونده ارسال شد</string>
+    <string name="upload_succ_line5">پرونده ارسال شد.</string>
     <!-- Label for a confirm button.-->
-    <string name="upload_succ_ok">قبول</string>
+    <string name="upload_succ_ok">خُب</string>
 
     <!-- Bluetooth Failed Upload File Transfer Dialog -->
     <string name="upload_fail_line1">پرونده به «%1$s» ارسال نشد.</string>
     <string name="upload_fail_line1_2">پرونده: %1$s</string>
     <!-- Label for a try again button.-->
-    <string name="upload_fail_ok">تلاش مجدد</string>
+    <string name="upload_fail_ok">دوباره</string>
     <!-- Label for a cancel button.-->
-    <string name="upload_fail_cancel">بستن</string>
+    <string name="upload_fail_cancel">لغو</string>
 
     <!-- Bluetooth error dialog -->
-    <string name="bt_error_btn_ok">قبول</string>
-    <string name="unknown_file">پروندهٔ نامشخص</string>
-    <string name="unknown_file_desc">هیچ برنامه‌ای برای اجرای این پرونده وجود ندارد. \n</string>
-    <string name="not_exist_file">پرونده موجود نیست</string>
+    <string name="bt_error_btn_ok">خُب</string>
+    <string name="unknown_file">پروندهٔ ناشناس</string>
+    <string name="unknown_file_desc">برنامه‌ای برای اجرای این نوع پرونده وجود ندارد. \n</string>
+    <string name="not_exist_file">پرونده وجود ندارد.</string>
     <string name="not_exist_file_desc">پرونده وجود ندارد! \n</string>
 
     <!-- Bluetooth  Enabling progress dialog -->
-    <string name="enabling_progress_title">لطفا صبر کنید\u2026</string>
+    <string name="enabling_progress_title">‏‏لطفاً صبر کنید.\u2026</string>
     <string name="enabling_progress_content">در حال روشن کردن بلوتوث\u2026</string>
 
     <!-- Bluetooth Toast Message -->
     <string name="bt_toast_1">پرونده دریافت خواهد شد. پیشرفت آنرا در نوار اطلاع‌ها بررسی کنید.</string>
     <string name="bt_toast_2">پرونده دریافت نخواهد شد.</string>
-    <string name="bt_toast_3">دریافت پرونده از «%1$s» متوقف شد</string>
-    <string name="bt_toast_4">در حال ارسال به «%1$s»</string>
-    <string name="bt_toast_5">در حال ارسال %1$s پرونده به «%2$s»</string>
-    <string name="bt_toast_6">ارسال پرونده به «%1$s» متوقف شد</string>
-    <string name="bt_toast_7">ارسال  %1$s پرونده به «%2$s» متوقف شد</string>
-
+    <string name="bt_toast_3">دریافت پرونده از «%1$s» متوقف شد.</string>
+    <string name="bt_toast_4">در حال ارسال پرونده به «%1$s»</string>
+    <string name="bt_toast_5">در حال ارسال پرونده‌های %1$s به «%2$s».</string>
+    <string name="bt_toast_6">ارسال پرونده به «%1$s» متوقف شد.</string>
+    
     <!-- Bluetooth System Messages -->
-    <string name="bt_sm_2_1">به مقدار کافی فضای خالی بر روی کارت‌حافظه برای ذخیره‌کردن پرونده از «%1$s» وجود ندارد</string>
+    <string name="bt_sm_2_1">فضای خالی کافی بر روی کارت‌حافظه، برای ذخیره‌کردن پرونده دریافتی از «%1$s» وجود ندارد.</string>
     <string name="bt_sm_2_2">فضای موردنیاز: %1$s</string>
-    <string name="bt_sm_3_1">«%1$s» می‌خواهد به شما %2$s پرونده ارسال کند. </string>
-    <string name="bt_sm_3_2">با این حال، این دستگاه فقط می‌تواند در یک لحظه، یک پرونده را دریافت کند. از فرد دیگر بخواهید تا %1$s پروندهٔ دیگر را تک‌تک ارسال کند.</string>
+    <string name="ErrorTooManyRequests">تعداد درخواست‌های در حال پردازش بسیار زیاد است. لطفاً بعداً دوباره امتحان کنید.</string>
 
-    <!-- Bluetooth Transfer Failure Messages -->
-    <string name="bt_tf_1">«%1$s» در دسترس نیست.</string>
-    <string name="bt_tf_2">نمی‌توان با «%1$s» جفت شد.</string>
-    <string name="bt_tf_3">اتصال متوقف شد.</string>
-    <string name="bt_tf_4">«%1$s» از جابجایی پرونده‌ها پشتیبانی نمی‌کند.</string>
-    <string name="bt_tf_5">«%1$s» نمی‌تواند  %2$s را قبول کند</string>
-    <string name="bt_tf_6">«%1$s» پرونده را قبول نکرد.</string>
-    <string name="bt_tf_7">پرونده را نمی‌توان ارسال کرد.</string>
-    <string name="bt_tf_8">پرونده را نمی‌توان دریافت کرد.</string>
-    <string name="bt_tf_10">کارت حافظه قفل شده است. برای ذخیرهٔ پرونده‌ها، باید ابتدا قفل آنرا باز کنید.</string>
-    <string name="bt_tf_12">در حال حاضر،‌ پروندهٔ دیگری به دستگاه دیگری در حال ارسال است. لطفا صبر کنید\u2026</string>
-    <string name="bt_tf_13">بلوتوث در حال حاضر مشغول است. یکی از امکانات دیگر بلوتوث را خاموش کنید و دوباره سعی کنید.</string>
-
+   
+    
     <!-- Bluetooth Transfer Failure Reason -->
-    <string name="status_pending">جابجایی پرونده هنوز شروع نشده است</string>
-    <string name="status_running">جابجایی پرونده در حال انجام است</string>
-    <string name="status_success">جابجایی پرونده با موفقیت انجام شد</string>
-    <string name="status_not_accept">گوشی از این نوع پرونده‌ها پشتیبانی نمی‌کند</string>
-    <string name="status_forbidden">این جابجایی توسط دستگاه مقصد ممنوع شده است</string>
-    <string name="status_canceled">این جابجایی توسط کاربر لغو شد</string>
+    <string name="status_pending">انتقال پرونده هنوز شروع نشده است.</string>
+    <string name="status_running">انتقال پرونده در حال انجام است.</string>
+    <string name="status_success">انتقال پرونده با موفقیت انجام شد.</string>
+    <string name="status_not_accept">گوشی شما این نوع پرونده‌ها را پشتیبانی نمی‌کند.</string>
+    <string name="status_forbidden">این انتقال توسط دستگاه مقصد ممنوع شده است.</string>
+    <string name="status_canceled">کاربر گیرنده این انتقال را لغو کرد.</string>
     <string name="status_file_error">مشکل در حافظه</string>
-    <string name="status_no_sd_card">هیچ کارت‌حافظه‌ای وجود ندارد. برای ذخیرهٔ پرونده‌های دریافت‌شده، کارت حافظه‌ای وارد گوشی کنید.</string>
+    <string name="status_no_sd_card">کارت‌حافظه‌ای وجود ندارد. برای ذخیرهٔ پرونده‌های دریافت شده،در گوشی کارت‌حافظه قرار دهید.</string>
     <string name="status_connection_error">اتصال ناموفق</string>
-    <string name="status_protocol_error">درخواست به درستی نمی‌تواند بررسی شود</string>
-    <string name="status_unknown_error">خطای نامشخص</string>
+    <string name="status_protocol_error">درخواست نمی‌تواند به درستی بررسی شود.</string>
+    <string name="status_unknown_error">خطای ناشناس</string>
 
     <!-- Bluetooth OPP Live Folder -->
-    <string name="btopp_live_folder">بلوتوث‌ها</string>
+    <string name="btopp_live_folder">بلوتوث‌ دریافت شد.</string>
+
+    <!-- Bluetooth OPP Transfer History -->
+    <string name="download_success">‏ %1$s به طور کامل دریافت شد.</string>
+    <string name="upload_success">‏ %1$s به طور کامل ارسال شد.</string>
+    <string name="inbound_history_title">ورودی‌ها</string>
+    <string name="outbound_history_title">خروجی‌ها</string>
+    <string name="no_transfers">تاریخچه انتقال خالی است.</string>
+    <string name="transfer_clear_dlg_msg">تمامی موارد از فهرست پاک خواهد شد.</string>
+    <string name="outbound_noti_title">اشتراک‌گذاری بلوتوث: پرونده‌های ارسال شده</string>
+    <string name="inbound_noti_title">اشتراک‌گذاری بلوتوث: پرونده‌های دریافت شده</string>
+    <string name="noti_caption">‏ %1$s موفقیت‌آمیز بود, %2$s موفقیت‌آمیز نبود.</string>
+
+    <string name="transfer_menu_clear_all">فهرست پاک شود.</string>
+    <string name="transfer_menu_open">باز کردن</string>
+    <string name="transfer_menu_clear">از فهرست پاک شود.</string>
+    <string name="transfer_clear_dlg_title">پاک کردن</string>
 
 </resources>
