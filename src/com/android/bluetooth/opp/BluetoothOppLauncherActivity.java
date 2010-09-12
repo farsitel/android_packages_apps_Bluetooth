@@ -182,7 +182,7 @@ public class BluetoothOppLauncherActivity extends Activity {
 
             String uri = shareContent.toString();
             String content = "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html;"
-                + " charset=UTF-8\"/></head><body>" + "<a href=\"" + uri + "\">" + uri + "</a></p>"
+                + " charset=UTF-8\"/></head><body><p><a href=\"" + uri + "\">" + uri + "</a></p>"
                 + "</body></html>";
             byte[] byteBuff = content.getBytes();
 
