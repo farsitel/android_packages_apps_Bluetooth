@@ -128,7 +128,7 @@
     <!-- Label for a try again button.-->
     <string name="upload_fail_ok">دوباره</string>
     <!-- Label for a cancel button.-->
-    <string name="upload_fail_cancel">لغو</string>
+    <string name="upload_fail_cancel">بی‌خیال</string>
 
     <!-- Bluetooth error dialog -->
     <string name="bt_error_btn_ok">خُب</string>

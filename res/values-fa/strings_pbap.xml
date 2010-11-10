@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="pbap_acceptance_dialog_title">‏%1$s می‌خواهد به آشنایان و تاریخچه مکالمات شما دسترسی پیدا کند. این اجازه به  %2$s داده شود؟</string>
+    <string name="pbap_acceptance_dialog_title">‏‏%1$s می‌خواهد به آشنایان و تاریخچهٔ مکالمات شما دسترسی پیدا کند. این اجازه به  %2$s داده شود؟</string>
     <string name="pbap_acceptance_dialog_header">دسترسی به دفترچه تلفن</string>
     <string name="pbap_session_key_dialog_title">کلید اتصال به %1$s را وارد کنید.</string>
     <string name="pbap_session_key_dialog_header">نیاز به کلید اتصال</string>
