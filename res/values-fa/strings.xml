@@ -44,7 +44,7 @@
     <!--Title -->
     <string name="incoming_file_confirm_title">انتقال پرونده</string>
     <!--content -->
-    <string name="incoming_file_confirm_content">‏‏‏‏‎‏‏‏‎‏‏‏«%1$s» می‌خواهد %2$s (%3$s) را برای شما بفرستد. \n\n موافقید؟</string>
+    <string name="incoming_file_confirm_content">‏‏‏‏‎‏‏‏‎‏‏‏«%1$s» می‌خواهد %2$s‏ (%3$s) را برای شما بفرستد. \n\n موافقید؟</string>
     <!-- Label for a cancel button. -->
     <string name="incoming_file_confirm_cancel">خیر</string>
     <!-- Label for a confirm button.-->
