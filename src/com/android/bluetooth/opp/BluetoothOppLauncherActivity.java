@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2008-2009, Motorola, Inc.
+ * Copyright (C) 2011 Iranian Supreme Council of ICT, The FarsiTel Project
  *
  * All rights reserved.
  *
